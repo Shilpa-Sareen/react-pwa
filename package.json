@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "test",
-    "start": "cd react-pwa && npm i && npm run build && cd .. && npm i express.js && node server.js"
+    "start": "cd UI && npm i && npm run build && cd .. && npm i express.js && node server.js"
   },
   "author": "Shilpa",
   "license": "ISC",
