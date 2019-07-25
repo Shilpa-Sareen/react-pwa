@@ -1,23 +1,15 @@
 {
-  "name": "create-react-pwa",
-  "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "react-scripts": "0.7.0",
-    "sw-precache": "^4.2.2"
-  },
-  "dependencies": {
-    "axios": "^0.19.0",
-    "express": "^4.17.1",
-    "express.js": "^1.0.0",
-    "pushstate-server": "^3.1.0",
-    "react": "^15.4.0",
-    "react-dom": "^15.4.0"
-  },
+  "name": "pwa-serve",
+  "version": "1.0.0",
+  "description": "test pwa server",
+  "main": "server.js",
   "scripts": {
-    "start": "npm run build && npm install express.js && node server.js",
-    "build": "react-scripts build && sw-precache --config=sw-precache-config.js",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test": "test",
+    "start": "cd react-pwa && npm i && npm run build && cd .. && npm i express.js && node server.js"
+  },
+  "author": "Shilpa",
+  "license": "ISC",
+  "dependencies": {
+    "express.js": "^1.0.0"
   }
 }
