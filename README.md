@@ -12,5 +12,5 @@ Then follow the below steps:
 
 1. npm install or npm i
 2. npm run build 
-3. cd /build and npm i express.js
+3. cd build and npm i express.js
 4. node server.js
