@@ -10,4 +10,4 @@ Steps to run this Demo:
 Preqeuisite: Make sure node is installed at you system. If it is not then follow the link to install it: https://nodejs.org/en/download/
 
 
-- To run this demo use "npm start" command. It will start express.js server at 5000 port. For exampleyou will be able to run this at: localhost:5000
+- To run this demo use "npm start" command. It will start express.js server at 5000 port. For example: you will be able to run this at: localhost:5000
